@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo" ><font color="white">MyPortfolio</font></div>
+      <ul class="nav-links">
+        <li><a href="#home" id="ba">Home</a></li>
+        <li><a href="#about" id="ab">About</a></li>
+        <li><a href="#projects" id="bc">Projects</a></li>
+        <li><a href="#contact" id="cd">Contact</a></li>
+      </ul>
+      <div class="burger"><i class="fas fa-bars"></i></div>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero" style="position: relative;height: 100vh; overflow: hidden;">
+   <iframe title="Malachy - Print Version" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1f3d81c84b8b49dda721feea990136e4/embed" style="position: absolute; top: 0; left: 0; width:100%; height: 100%; z-index: -1;"></iframe>
+   <div class="hero-content" data-aos="fade-up" style="position: relative; z-index: 1;">
+      <h1>Hi, I'm jagadeesh channapur</h1>
+      <p></p>
+      <a href="#projects" class="btn">View Work</a>
+    </div>
+  </section>
+
+  <section class="about" id="about" data-aos="fade-right" style="z-index: 1;">
+    <h2>About Me</h2>
+    <p>Mobile:9731453583</p>
+    <p>Email:jagadeesh@gmail.com</p>
+    <p>Address:Hotanalli 581203 dist:Haveri</p>
+    <table border="2px">
+      <tr>
+        <th>Education</th>
+        <th>Colleg/school</th>
+        <th>Year</th>
+        <th>%/cgpa</th>
+      </tr>
+      <tr>
+        <td>SSLC</td>
+        <td>Gov.school hotanahalli</td>
+        <td>2021</td>
+        <td>86%</td>
+      </tr>
+      <tr>
+        <td>PUC</td>
+        <td>SBBMD college shiggaon</td>
+        <td>2023</td>
+        <td>95%</td>
+      </tr>
+      <tr>
+        <td>BCA</td>
+        <td>KLE's G H BCA college haveri</td>
+        <td>2026</td>
+        <td></td>
+      </tr>
+    </table>
+    <h2>Skills</h2>
+    <ul class="lis">
+      <li>Python programming</li>
+      <li>Java programming</li>
+      <li>Fronted development</li>
+    </ul>
+  </section>
+
+  <section class="projects" id="projects" data-aos="fade-left" style="z-index: 1;">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card"><a href="https://jagadeesh2005.netlify.app/">OTT platform</a></div>
+      <div class="project-card">Project 2</div>
+      <div class="project-card">Project 3</div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact"  style="z-index: 1;">
+    <h2>Contact</h2>
+    <form action="https://formspree.io/f/xkgbeqjb" method="POST">
+      <input name="your" type="text" placeholder="Your Name" required />
+      <input  name="email" type="email" placeholder="Your Email" required />
+      <textarea name="msg" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div id="responce"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  
+  </script>
+  
+  </script>
+
+  
+</body>
+</html>
